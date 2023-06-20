@@ -1,13 +1,17 @@
-/*
- * Ce programme s'execute dans la console d'eclipse
- * Il affiche le texte Hello World à l'écran
- */
 
 public class Principale { // Ne pas modifier cette ligne
 
 	public static void main(String[] args) {
-		System.out.println("Hello World !!!");
+		int i;
+		for (i = 0; i < 5; i++) {
+			System.out.println("Bienvenue dans Eclipse !");
+		}
 
+		System.out.println("C'est la fin !");
+	}
+
+	public int ajouter(int num1, int num2) {
+		return num1 + num2;
 	}
 
 }
