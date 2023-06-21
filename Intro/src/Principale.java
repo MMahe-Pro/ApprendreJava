@@ -18,5 +18,7 @@ public class Principale { // Ne pas modifier cette ligne
 	public int ajouter(int num1, int num2) {
 		return num1 + num2;
 	}
+	
+	
 
 }
