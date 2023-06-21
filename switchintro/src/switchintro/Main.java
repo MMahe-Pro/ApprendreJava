@@ -28,7 +28,7 @@ public class Main {
 		}
 		default -> System.out.println("Was not 1, 2, 3, 4, or 5");
 		}
-		
+
 		// Switch test
 		String month = "XYZ";
 		System.out.println(month + " is in the " + getQuarter(month) + " quarter");
