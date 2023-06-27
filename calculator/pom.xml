@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.openclassromm.testing</groupId>
+	<artifactId>calculator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<!-- On précise l'encodage utilisé : UTF-8 -->
+	<properties>
+		<project.build.souceEncoding>UTF-8</project.build.souceEncoding>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+	</properties>
+
+	<!--Copié-collé depuis  https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.5.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<!-- On indique quelle version de surefire nous allons utiliser-->
+				<version>2.22.2</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>
